@@ -94,7 +94,7 @@ span{
   line-height: 1.2;
 }
 
-#profile-pics {
+.home img {
   height: 500px;
   border-radius: 50%;
 }
@@ -120,4 +120,29 @@ span{
 .home-content button:hover{
   background-color: orangered;
   box-shadow: 0 0 25px orangered;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12% 8%;
+  gap: 10em;
+  background: black;
+  color: white;
+}
+
+.about-img img{
+  position: relative;
+  width: 550px;
+  border-radius: 20px;
+}
+
+.about-content h2, span{
+  text-align: left;
+  font-size: 35px;
+}
+
+.about-content p {
+  margin-top: 30px;
 }
